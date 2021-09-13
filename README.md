@@ -7,6 +7,6 @@ config := ppf.Config{
     Port: 8081,
     Disabled: false,
 }
-ppf.RunPprofServer(&config)
+ppf.RunServer(&config)
 
 ```
